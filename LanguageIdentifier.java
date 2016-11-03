@@ -373,8 +373,15 @@ public class LanguageIdentifier
             System.out.println("W: " +W);
             System.out.println("X: " +X);
             System.out.println("Y: " +Y);
-            System.out.println("Z: " +Z);                  
-            
+            System.out.println("Z: " +Z);   
+        
+        //*This is the Italian Verification*//
+        if(totalE>totalA)
+            {if(totalA>totalI)
+                {if(totalI>totalO)
+                    {if(totalO>totalN)
+                        {System.out.println("This is Italian");}}}} /*These last curly braces close all if statements above*/
+        
             stop = System.currentTimeMillis();
             elapsed = stop - start;
             System.out.println("\nTime in milliseconds: " + elapsed +" milliseconds");
